@@ -15,6 +15,7 @@
 		940FD4241AAC141400D50264 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4221AAC141400D50264 /* LaunchScreen.xib */; };
 		940FD4301AAC141400D50264 /* cookiecrunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD42F1AAC141400D50264 /* cookiecrunchTests.swift */; };
 		940FD43A1AAC146A00D50264 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4391AAC146A00D50264 /* Sprites.atlas */; };
+		940FD43C1AAC47E900D50264 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD43B1AAC47E900D50264 /* Cookie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		940FD42E1AAC141400D50264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		940FD42F1AAC141400D50264 /* cookiecrunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookiecrunchTests.swift; sourceTree = "<group>"; };
 		940FD4391AAC146A00D50264 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = Sprites.atlas; path = ../Sprites.atlas; sourceTree = "<group>"; };
+		940FD43B1AAC47E900D50264 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				940FD4151AAC141300D50264 /* AppDelegate.swift */,
 				940FD4191AAC141300D50264 /* GameScene.swift */,
 				940FD41B1AAC141300D50264 /* GameViewController.swift */,
+				940FD43B1AAC47E900D50264 /* Cookie.swift */,
 				940FD41D1AAC141400D50264 /* Main.storyboard */,
 				940FD4201AAC141400D50264 /* Images.xcassets */,
 				940FD4391AAC146A00D50264 /* Sprites.atlas */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				940FD41A1AAC141300D50264 /* GameScene.swift in Sources */,
+				940FD43C1AAC47E900D50264 /* Cookie.swift in Sources */,
 				940FD41C1AAC141300D50264 /* GameViewController.swift in Sources */,
 				940FD4161AAC141300D50264 /* AppDelegate.swift in Sources */,
 			);
