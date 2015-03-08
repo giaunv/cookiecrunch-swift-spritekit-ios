@@ -18,6 +18,7 @@
 		940FD43C1AAC47E900D50264 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD43B1AAC47E900D50264 /* Cookie.swift */; };
 		940FD43E1AAC4C8900D50264 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD43D1AAC4C8900D50264 /* Array2D.swift */; };
 		940FD4401AAC547400D50264 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD43F1AAC547400D50264 /* Set.swift */; };
+		940FD4421AAC586A00D50264 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD4411AAC586A00D50264 /* Level.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		940FD43B1AAC47E900D50264 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		940FD43D1AAC4C8900D50264 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		940FD43F1AAC547400D50264 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		940FD4411AAC586A00D50264 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				940FD43B1AAC47E900D50264 /* Cookie.swift */,
 				940FD43D1AAC4C8900D50264 /* Array2D.swift */,
 				940FD43F1AAC547400D50264 /* Set.swift */,
+				940FD4411AAC586A00D50264 /* Level.swift */,
 				940FD41D1AAC141400D50264 /* Main.storyboard */,
 				940FD4201AAC141400D50264 /* Images.xcassets */,
 				940FD4391AAC146A00D50264 /* Sprites.atlas */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				940FD41A1AAC141300D50264 /* GameScene.swift in Sources */,
+				940FD4421AAC586A00D50264 /* Level.swift in Sources */,
 				940FD43C1AAC47E900D50264 /* Cookie.swift in Sources */,
 				940FD4401AAC547400D50264 /* Set.swift in Sources */,
 				940FD41C1AAC141300D50264 /* GameViewController.swift in Sources */,
