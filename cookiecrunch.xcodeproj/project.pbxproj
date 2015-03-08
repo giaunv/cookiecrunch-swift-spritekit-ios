@@ -19,6 +19,13 @@
 		940FD43E1AAC4C8900D50264 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD43D1AAC4C8900D50264 /* Array2D.swift */; };
 		940FD4401AAC547400D50264 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD43F1AAC547400D50264 /* Set.swift */; };
 		940FD4421AAC586A00D50264 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD4411AAC586A00D50264 /* Level.swift */; };
+		940FD4491AAC9BEC00D50264 /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4441AAC9BEC00D50264 /* Level_0.json */; };
+		940FD44A1AAC9BEC00D50264 /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4451AAC9BEC00D50264 /* Level_1.json */; };
+		940FD44B1AAC9BEC00D50264 /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4461AAC9BEC00D50264 /* Level_2.json */; };
+		940FD44C1AAC9BEC00D50264 /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4471AAC9BEC00D50264 /* Level_3.json */; };
+		940FD44D1AAC9BEC00D50264 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4481AAC9BEC00D50264 /* Level_4.json */; };
+		940FD44F1AAC9E1F00D50264 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD44E1AAC9E1F00D50264 /* Tile.swift */; };
+		940FD4511AAC9F3400D50264 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD4501AAC9F3400D50264 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		940FD43D1AAC4C8900D50264 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		940FD43F1AAC547400D50264 /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		940FD4411AAC586A00D50264 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		940FD4441AAC9BEC00D50264 /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		940FD4451AAC9BEC00D50264 /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		940FD4461AAC9BEC00D50264 /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		940FD4471AAC9BEC00D50264 /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		940FD4481AAC9BEC00D50264 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		940FD44E1AAC9E1F00D50264 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = Levels/Tile.swift; sourceTree = "<group>"; };
+		940FD4501AAC9F3400D50264 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +110,11 @@
 				940FD43D1AAC4C8900D50264 /* Array2D.swift */,
 				940FD43F1AAC547400D50264 /* Set.swift */,
 				940FD4411AAC586A00D50264 /* Level.swift */,
+				940FD4501AAC9F3400D50264 /* Extensions.swift */,
+				940FD44E1AAC9E1F00D50264 /* Tile.swift */,
 				940FD41D1AAC141400D50264 /* Main.storyboard */,
 				940FD4201AAC141400D50264 /* Images.xcassets */,
+				940FD4431AAC9BEC00D50264 /* Levels */,
 				940FD4391AAC146A00D50264 /* Sprites.atlas */,
 				940FD4221AAC141400D50264 /* LaunchScreen.xib */,
 				940FD4131AAC141300D50264 /* Supporting Files */,
@@ -128,6 +145,18 @@
 				940FD42E1AAC141400D50264 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		940FD4431AAC9BEC00D50264 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				940FD4441AAC9BEC00D50264 /* Level_0.json */,
+				940FD4451AAC9BEC00D50264 /* Level_1.json */,
+				940FD4461AAC9BEC00D50264 /* Level_2.json */,
+				940FD4471AAC9BEC00D50264 /* Level_3.json */,
+				940FD4481AAC9BEC00D50264 /* Level_4.json */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +240,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				940FD4241AAC141400D50264 /* LaunchScreen.xib in Resources */,
+				940FD44D1AAC9BEC00D50264 /* Level_4.json in Resources */,
+				940FD44B1AAC9BEC00D50264 /* Level_2.json in Resources */,
+				940FD4491AAC9BEC00D50264 /* Level_0.json in Resources */,
 				940FD4211AAC141400D50264 /* Images.xcassets in Resources */,
 				940FD41F1AAC141400D50264 /* Main.storyboard in Resources */,
+				940FD44A1AAC9BEC00D50264 /* Level_1.json in Resources */,
+				940FD44C1AAC9BEC00D50264 /* Level_3.json in Resources */,
 				940FD43A1AAC146A00D50264 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				940FD41A1AAC141300D50264 /* GameScene.swift in Sources */,
+				940FD4511AAC9F3400D50264 /* Extensions.swift in Sources */,
 				940FD4421AAC586A00D50264 /* Level.swift in Sources */,
 				940FD43C1AAC47E900D50264 /* Cookie.swift in Sources */,
+				940FD44F1AAC9E1F00D50264 /* Tile.swift in Sources */,
 				940FD4401AAC547400D50264 /* Set.swift in Sources */,
 				940FD41C1AAC141300D50264 /* GameViewController.swift in Sources */,
 				940FD4161AAC141300D50264 /* AppDelegate.swift in Sources */,
