@@ -26,6 +26,7 @@
 		940FD44D1AAC9BEC00D50264 /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 940FD4481AAC9BEC00D50264 /* Level_4.json */; };
 		940FD44F1AAC9E1F00D50264 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD44E1AAC9E1F00D50264 /* Tile.swift */; };
 		940FD4511AAC9F3400D50264 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD4501AAC9F3400D50264 /* Extensions.swift */; };
+		94519C631AADFD3800589918 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94519C621AADFD3800589918 /* Swap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		940FD4481AAC9BEC00D50264 /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
 		940FD44E1AAC9E1F00D50264 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = Levels/Tile.swift; sourceTree = "<group>"; };
 		940FD4501AAC9F3400D50264 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		94519C621AADFD3800589918 /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				940FD4151AAC141300D50264 /* AppDelegate.swift */,
 				940FD4191AAC141300D50264 /* GameScene.swift */,
+				94519C621AADFD3800589918 /* Swap.swift */,
 				940FD41B1AAC141300D50264 /* GameViewController.swift */,
 				940FD43B1AAC47E900D50264 /* Cookie.swift */,
 				940FD43D1AAC4C8900D50264 /* Array2D.swift */,
@@ -269,6 +272,7 @@
 				940FD4511AAC9F3400D50264 /* Extensions.swift in Sources */,
 				940FD4421AAC586A00D50264 /* Level.swift in Sources */,
 				940FD43C1AAC47E900D50264 /* Cookie.swift in Sources */,
+				94519C631AADFD3800589918 /* Swap.swift in Sources */,
 				940FD44F1AAC9E1F00D50264 /* Tile.swift in Sources */,
 				940FD4401AAC547400D50264 /* Set.swift in Sources */,
 				940FD41C1AAC141300D50264 /* GameViewController.swift in Sources */,
@@ -465,6 +469,7 @@
 				940FD4351AAC141400D50264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		940FD4361AAC141400D50264 /* Build configuration list for PBXNativeTarget "cookiecrunchTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +478,7 @@
 				940FD4381AAC141400D50264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
