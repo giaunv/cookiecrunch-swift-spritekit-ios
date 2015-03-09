@@ -103,6 +103,10 @@ class Level {
         possibleSwaps = set
     }
     
+    func isPossibleSwap(swap: Swap) -> Bool{
+        return possibleSwaps.containsElement(swap)
+    }
+    
     private func createInitialCookies() -> Set<Cookie>{
         var set = Set<Cookie>()
         
