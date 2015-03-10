@@ -107,6 +107,68 @@ class Level {
         return possibleSwaps.containsElement(swap)
     }
     
+    func detectHorizontalMatches() -> Set<Chain>{
+        var set = Set<Chain>()
+        for row in 0..<NumRows{
+            for var column = 0; column < NumColumns - 2; {
+                if let cookie = cookies[column, row] {
+                    let matchType = cookie.cookieType
+                    if cookies[column+1, row]?.cookieType == matchType && cookies[column+2, row]?.cookieType == matchType{
+                        let chain = Chain(chainType: .Horizontal)
+                        do{
+                            chain.addCookie(cookies[column, row]!)
+                            ++column
+                        }
+                        while column < NumColumns && cookies[column, row]?.cookieType == matchType
+                        
+                        set.addElement(chain)
+                        continue
+                    }
+                }
+                ++column
+            }
+        }
+        
+        return set
+    }
+    
+    func detectVerticalMatches() -> Set<Chain>{
+        var set = Set<Chain>()
+        
+        for column in 0..<NumColumns{
+            for var row = 0; row < NumRows - 2;{
+                if let cookie = cookies[column, row] {
+                    let matchType = cookie.cookieType
+                    
+                    if cookies[column, row + 1]?.cookieType == matchType && cookies[column, row + 2]?.cookieType == matchType{
+                        let chain = Chain(chainType: .Vertical)
+                        do{
+                            chain.addCookie(cookies[column, row]!)
+                            ++row
+                        }
+                        while row < NumRows && cookies[column, row]?.cookieType == matchType
+                        
+                        set.addElement(chain)
+                        continue
+                    }
+                }
+                ++row
+            }
+        }
+        
+        return set
+    }
+    
+    func removeMatches() -> Set<Chain> {
+        let horizontalChains = detectHorizontalMatches()
+        let verticalChains = detectVerticalMatches()
+        
+        println("horizontal chains: \(horizontalChains)")
+        println("vertical chains: \(verticalChains)")
+        
+        return horizontalChains.unionSet(verticalChains)
+    }
+    
     private func createInitialCookies() -> Set<Cookie>{
         var set = Set<Cookie>()
         
