@@ -27,6 +27,12 @@
 		940FD44F1AAC9E1F00D50264 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD44E1AAC9E1F00D50264 /* Tile.swift */; };
 		940FD4511AAC9F3400D50264 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FD4501AAC9F3400D50264 /* Extensions.swift */; };
 		94519C631AADFD3800589918 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94519C621AADFD3800589918 /* Swap.swift */; };
+		94519C6B1AAE6BF300589918 /* Chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94519C651AAE6BF300589918 /* Chomp.wav */; };
+		94519C6C1AAE6BF300589918 /* Drip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94519C661AAE6BF300589918 /* Drip.wav */; };
+		94519C6D1AAE6BF300589918 /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94519C671AAE6BF300589918 /* Error.wav */; };
+		94519C6E1AAE6BF300589918 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94519C681AAE6BF300589918 /* Ka-Ching.wav */; };
+		94519C6F1AAE6BF300589918 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94519C691AAE6BF300589918 /* Mining by Moonlight.mp3 */; };
+		94519C701AAE6BF300589918 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94519C6A1AAE6BF300589918 /* Scrape.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,12 @@
 		940FD44E1AAC9E1F00D50264 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = Levels/Tile.swift; sourceTree = "<group>"; };
 		940FD4501AAC9F3400D50264 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		94519C621AADFD3800589918 /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
+		94519C651AAE6BF300589918 /* Chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Chomp.wav; sourceTree = "<group>"; };
+		94519C661AAE6BF300589918 /* Drip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drip.wav; sourceTree = "<group>"; };
+		94519C671AAE6BF300589918 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Error.wav; sourceTree = "<group>"; };
+		94519C681AAE6BF300589918 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
+		94519C691AAE6BF300589918 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
+		94519C6A1AAE6BF300589918 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,7 @@
 				940FD4431AAC9BEC00D50264 /* Levels */,
 				940FD4391AAC146A00D50264 /* Sprites.atlas */,
 				940FD4221AAC141400D50264 /* LaunchScreen.xib */,
+				94519C641AAE6BF300589918 /* Sounds */,
 				940FD4131AAC141300D50264 /* Supporting Files */,
 			);
 			path = cookiecrunch;
@@ -160,6 +173,20 @@
 				940FD4481AAC9BEC00D50264 /* Level_4.json */,
 			);
 			path = Levels;
+			sourceTree = "<group>";
+		};
+		94519C641AAE6BF300589918 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				94519C651AAE6BF300589918 /* Chomp.wav */,
+				94519C661AAE6BF300589918 /* Drip.wav */,
+				94519C671AAE6BF300589918 /* Error.wav */,
+				94519C681AAE6BF300589918 /* Ka-Ching.wav */,
+				94519C691AAE6BF300589918 /* Mining by Moonlight.mp3 */,
+				94519C6A1AAE6BF300589918 /* Scrape.wav */,
+			);
+			name = Sounds;
+			path = Levels/Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +270,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				940FD4241AAC141400D50264 /* LaunchScreen.xib in Resources */,
+				94519C6C1AAE6BF300589918 /* Drip.wav in Resources */,
 				940FD44D1AAC9BEC00D50264 /* Level_4.json in Resources */,
+				94519C6D1AAE6BF300589918 /* Error.wav in Resources */,
 				940FD44B1AAC9BEC00D50264 /* Level_2.json in Resources */,
+				94519C701AAE6BF300589918 /* Scrape.wav in Resources */,
 				940FD4491AAC9BEC00D50264 /* Level_0.json in Resources */,
+				94519C6B1AAE6BF300589918 /* Chomp.wav in Resources */,
+				94519C6F1AAE6BF300589918 /* Mining by Moonlight.mp3 in Resources */,
 				940FD4211AAC141400D50264 /* Images.xcassets in Resources */,
+				94519C6E1AAE6BF300589918 /* Ka-Ching.wav in Resources */,
 				940FD41F1AAC141400D50264 /* Main.storyboard in Resources */,
 				940FD44A1AAC9BEC00D50264 /* Level_1.json in Resources */,
 				940FD44C1AAC9BEC00D50264 /* Level_3.json in Resources */,
