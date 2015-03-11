@@ -17,6 +17,7 @@ class Level {
     private var possibleSwaps = Set<Swap>()
     let targetScore: Int!
     let maximumMoves: Int!
+    private var comboMultiplier = 0
     
     func tileAtColumn(column: Int, row: Int) -> Tile?{
         assert(column >= 0 && column < NumColumns)
@@ -298,7 +299,12 @@ class Level {
     private func calculateScores(chains: Set<Chain>){
         // 3-chain is 60 points, 4-chain is 120, 5-chain is 180, and so on
         for chain in chains {
-            chain.score = 60 * (chain.length - 2)
+            chain.score = 60 * (chain.length - 2) * comboMultiplier
+            ++comboMultiplier
         }
+    }
+    
+    func resetComboMultiplier(){
+        comboMultiplier = 1
     }
 }
