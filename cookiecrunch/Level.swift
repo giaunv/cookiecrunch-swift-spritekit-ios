@@ -15,6 +15,8 @@ class Level {
     private var cookies = Array2D<Cookie>(columns: NumColumns, rows: NumRows)
     private var tiles = Array2D<Tile>(columns: NumColumns, rows: NumRows)
     private var possibleSwaps = Set<Swap>()
+    let targetScore: Int!
+    let maximumMoves: Int!
     
     func tileAtColumn(column: Int, row: Int) -> Tile?{
         assert(column >= 0 && column < NumColumns)
@@ -268,6 +270,9 @@ class Level {
                         }
                     }
                 }
+                
+                targetScore = (dictionary["targetScore"] as NSNumber).integerValue
+                maximumMoves = (dictionary["moves"] as NSNumber).integerValue
             }
         }
     }
