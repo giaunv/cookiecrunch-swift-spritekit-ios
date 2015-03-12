@@ -34,6 +34,7 @@
 		94519C6F1AAE6BF300589918 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94519C691AAE6BF300589918 /* Mining by Moonlight.mp3 */; };
 		94519C701AAE6BF300589918 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 94519C6A1AAE6BF300589918 /* Scrape.wav */; };
 		946943881AAF44EC00078281 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946943871AAF44EC00078281 /* Chain.swift */; };
+		9469438A1AB11F2700078281 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 946943891AB11F2700078281 /* Grid.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		94519C691AAE6BF300589918 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
 		94519C6A1AAE6BF300589918 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
 		946943871AAF44EC00078281 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		946943891AB11F2700078281 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				940FD4431AAC9BEC00D50264 /* Levels */,
 				940FD4391AAC146A00D50264 /* Sprites.atlas */,
 				940FD4221AAC141400D50264 /* LaunchScreen.xib */,
+				946943891AB11F2700078281 /* Grid.atlas */,
 				94519C641AAE6BF300589918 /* Sounds */,
 				940FD4131AAC141300D50264 /* Supporting Files */,
 			);
@@ -275,6 +278,7 @@
 				940FD4241AAC141400D50264 /* LaunchScreen.xib in Resources */,
 				94519C6C1AAE6BF300589918 /* Drip.wav in Resources */,
 				940FD44D1AAC9BEC00D50264 /* Level_4.json in Resources */,
+				9469438A1AB11F2700078281 /* Grid.atlas in Resources */,
 				94519C6D1AAE6BF300589918 /* Error.wav in Resources */,
 				940FD44B1AAC9BEC00D50264 /* Level_2.json in Resources */,
 				94519C701AAE6BF300589918 /* Scrape.wav in Resources */,
